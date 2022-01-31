@@ -17,7 +17,14 @@ nav {
 .navTop {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.logo {
+    /* color: #369e62; */
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
 }
 
 .search {
@@ -39,7 +46,8 @@ nav {
 
 .limitedOffer {
     font-size: 20px;
-    border-bottom: 2px solid green;
+    color: #369e62;
+    border-bottom: 2px solid white;
     cursor: pointer;
 }
 
@@ -459,7 +467,7 @@ footer {
 
 @media screen and (max-width: 480px) {
     nav {
-        padding: 20px;
+        padding: 1rem;
     }
 
     .search {
@@ -467,19 +475,18 @@ footer {
     }
 
     .navBottom {
-        flex-wrap: wrap;
-        padding-top: 1rem;
+        margin-top: 1rem;
     }
 
     .menuItem {
-        margin: 20px;
+        margin: 5px;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .slider {
         clip-path: none;
-        height: calc(100vh - 213px);
+        height: calc(100vh - 128px);
         display: flex;
         align-items: center;
     }
