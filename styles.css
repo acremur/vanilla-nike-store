@@ -538,8 +538,7 @@ footer {
 
     .productImg {
         width: 80%;
-        height: 284px;
-        margin-top: 1rem;
+        height: 250px;
     }
 
     .productDetails {
@@ -555,7 +554,7 @@ footer {
     }
 
     .productTitle {
-        font-size: 50px;
+        font-size: 32px;
         margin: 0;
     }
 
